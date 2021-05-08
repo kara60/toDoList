@@ -1,0 +1,39 @@
+body{
+    background-image: url(img/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+    max-width: 400px;
+}
+
+h1, label{
+    font-family: 'Montserrat', sans-serif;
+}
+
+label{
+    font-size: 18px;
+}
+
+input[type=text], input[type=text]:focus{
+    color: black;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.753);
+}
+
+.todos li{
+    background-color: #5f5d589a;
+    border: none;
+    /* font-family: 'Josefin Sans', sans-serif; */
+}
+
+.delete{
+    cursor: pointer;
+}
+
+.filtered{
+    display: none !important;
+}
